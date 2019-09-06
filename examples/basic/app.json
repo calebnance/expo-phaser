@@ -7,7 +7,7 @@
     "privacy": "public",
     "sdkVersion": "34.0.0",
     "version": "1.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": ["android", "ios", "web"],
     "githubUrl": "https://github.com/expo/expo-phaser",
     "orientation": "portrait",
     "primaryColor": "#000",
