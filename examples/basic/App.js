@@ -1,5 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import {
+  StatusBar,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View
+} from 'react-native';
 import { AppLoading } from 'expo';
 import Constants from 'expo-constants';
 
@@ -63,6 +69,7 @@ export default class App extends React.Component {
 
     return (
       <React.Fragment>
+        <StatusBar barStyle="light-content" />
         <Controls gamePause={gamePause} updateStats={this.updateStats} />
 
         <View style={styles.container}>

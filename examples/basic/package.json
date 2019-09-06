@@ -18,16 +18,16 @@
     "ios": "expo start --ios"
   },
   "dependencies": {
-    "expo": "^33.0.0",
+    "expo": "^34.0.4",
     "expo-asset": "^6.0.0",
-    "expo-constants": "~5.0.1",
-    "expo-gl": "~5.0.1",
+    "expo-constants": "^6.0.0",
+    "expo-gl": "^6.0.0",
     "expo-multi-touch": "0.0.0",
     "expo-phaser": "./expo-phaser-v0.0.1-alpha.0.tgz",
-    "expo-sensors": "~5.0.1",
+    "expo-sensors": "^6.0.0",
     "prop-types": "^15.7.2",
     "react": "16.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
